@@ -4,7 +4,6 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'base-url',
     environment: environment,
-    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
