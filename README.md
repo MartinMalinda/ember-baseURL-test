@@ -1,5 +1,11 @@
 # Base-url
 
+- `cli-2.7-manually-added-base-rootURL` gives error after hard refresh: `Uncaught Error: Assertion Failed: Path /manual-test/root-test/ does not start with the provided rootURL /root-test/`
+- `cli-2.7-no-base-baseURL` - localhost:4200/base-test gives 404, localhost:4200/base-test/ is required.
+- seems like changing rootURL requires to restart the server, liveReload won't move the assets
+- `cli-2.6-autopopulated-base-rootURL-baseURL` gives `Uncaught Error: Assertion Failed: Path /base-test/root-test does not start with the provided rootURL /root-test/`
+- `cli-2.6-manually-added-base-rootURL` gives error after hard refresh
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
